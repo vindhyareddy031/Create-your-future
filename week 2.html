@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Weekly Report — Week 2</title>
+  <style>
+    :root{
+      --bg:#f7f9fc;
+      --card:#ffffff;
+      --accent:#2563eb;
+      --muted:#6b7280;
+      --radius:12px;
+      --maxw:900px;
+    }
+    body{
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      background:linear-gradient(180deg,var(--bg),#e8f2ff 70%);
+      color:#222;
+      margin:0;
+      padding:32px 16px;
+      display:flex;
+      justify-content:center;
+    }
+    .container{
+      width:100%;
+      max-width:var(--maxw);
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:16px;
+      margin-bottom:20px;
+    }
+    .badge{
+      background:var(--accent);
+      color:white;
+      padding:10px 14px;
+      border-radius:10px;
+      font-weight:700;
+      box-shadow:0 6px 18px rgba(37,99,235,0.18);
+    }
+    h1{margin:0;font-size:1.6rem;}
+    .card{
+      background:var(--card);
+      border-radius:var(--radius);
+      padding:20px;
+      box-shadow:0 8px 24px rgba(15,23,42,0.06);
+      margin-bottom:18px;
+    }
+    .objective{
+      background:#f0f7ff;
+      border:1px solid rgba(37,99,235,0.08);
+      padding:12px 14px;
+      border-radius:8px;
+      margin-bottom:16px;
+    }
+    .section-title{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      margin-bottom:12px;
+    }
+    .muted{color:var(--muted);font-size:0.95rem;}
+    .days{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:12px;
+    }
+    .day{
+      background:linear-gradient(180deg,#fff,#fcfeff);
+      border:1px solid rgba(0,0,0,0.04);
+      border-radius:10px;
+      padding:12px;
+    }
+    .day h3{margin:0 0 6px 0;color:var(--accent);font-size:1rem;}
+    .day p{margin:0;color:#333;line-height:1.45;}
+    .gallery{
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:10px;
+      margin-top:14px;
+    }
+    .gallery img{
+      width:100%;
+      height:170px;
+      object-fit:cover;
+      border-radius:8px;
+      border:1px solid rgba(0,0,0,0.06);
+      display:block;
+    }
+    .caption{text-align:center;font-size:0.85rem;color:var(--muted);margin-top:6px;}
+    footer{text-align:center;color:var(--muted);font-size:0.9rem;margin-top:18px;}
+    @media(max-width:560px){
+      .gallery img{height:140px;}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="badge">WEEKLY REPORT</div>
+      <div>
+        <h1>Week-2 — Community Service Project</h1>
+        <div class="muted">Mount Litera Group of High School</div>
+      </div>
+    </header>
+
+    <section class="card">
+      <div class="section-title">
+        <h2>Objective of the Activity Done</h2>
+        <span class="muted">Week-2</span>
+      </div>
+      <div class="objective">
+        To collect the information about the community (<strong>Mount Litera Group of High School</strong>).
+      </div>
+
+      <div class="section-title">
+        <h3>Detailed Report</h3>
+      </div>
+
+      <div class="days">
+        <div class="day">
+          <h3>On day 1</h3>
+          <p>We visited the school for our community service project to interact with the students in the 2nd week.</p>
+        </div>
+        <div class="day">
+          <h3>On day 2</h3>
+          <p>We went to the Principal and asked for permission to interview the school students.</p>
+        </div>
+        <div class="day">
+          <h3>On day 3</h3>
+          <p>We communicated with the Principal and interviewed them to know about the history of the school.</p>
+        </div>
+        <div class="day">
+          <h3>On day 4</h3>
+          <p>We interacted with school students to know about the school’s day-wise classes, programs, and games.</p>
+        </div>
+        <div class="day">
+          <h3>On day 5</h3>
+          <p>Our team introduced ourselves to the school community and other people, explaining the community service project.</p>
+        </div>
+        <div class="day" style="grid-column:1/-1;">
+          <h3>On day 6</h3>
+          <p>Finally, we prepared a proper design based on the analysis of school members’ aspirations for their future careers.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="section-title">
+        <h2>Photos / Visual References</h2>
+        <span class="muted">Click images to view larger</span>
+      </div>
+      <div class="gallery">
+        <a href="https://source.unsplash.com/featured/?principal,office" target="_blank" rel="noopener noreferrer">
+          <img src="https://source.unsplash.com/featured/?principal,office" alt="Principal office discussion">
+        </a>
+        <a href="https://source.unsplash.com/featured/?students,interaction" target="_blank" rel="noopener noreferrer">
+          <img src="https://source.unsplash.com/featured/?students,interaction" alt="Students interaction session">
+        </a>
+        <a href="https://source.unsplash.com/featured/?school,games" target="_blank" rel="noopener noreferrer">
+          <img src="https://source.unsplash.com/featured/?school,games" alt="School games activities">
+        </a>
+        <a href="https://source.unsplash.com/featured/?education,teamwork" target="_blank" rel="noopener noreferrer">
+          <img src="https://source.unsplash.com/featured/?education,teamwork" alt="Teamwork in education">
+        </a>
+      </div>
+      <div class="caption">
+        Image sources (dynamic) from Unsplash: principal office, students, games, teamwork.
+      </div>
+    </section>
+
+    <footer>
+      Prepared by: Community Service Team — Week 2
+    </footer>
+  </div>
+</body>
+</html>
